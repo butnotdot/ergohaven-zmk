@@ -54,21 +54,21 @@
         metro_key: metro_key {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp M &kp E &kp M &kp M &kp E &kp T &kp R &kp O>;
+            bindings = <&kp M &kp E &kp M &kp M &kp E &kp T &kp R &kp O &kp ENTER>;
             label = "METRO_KEY";
         };
 
         checkstyle_main: checkstyle_main {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp DOT &kp FSLH &kp G &kp R &kp A &kp D &kp L &kp E &kp W &kp SPACE &kp C &kp H &kp E &kp C &kp K &kp S &kp T &kp Y &kp L &kp E &kp LS(M) &kp A &kp I &kp N>;
+            bindings = <&kp DOT &kp FSLH &kp G &kp R &kp A &kp D &kp L &kp E &kp W &kp SPACE &kp C &kp H &kp E &kp C &kp K &kp S &kp T &kp Y &kp L &kp E &kp LS(M) &kp A &kp I &kp N &kp ENTER>;
             label = "CHECKSTYLE_MAIN";
         };
 
         checkstyle_test: checkstyle_test {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp DOT &kp FSLH &kp G &kp R &kp A &kp D &kp L &kp E &kp W &kp SPACE &kp C &kp H &kp E &kp C &kp K &kp S &kp T &kp Y &kp L &kp E &kp LS(T) &kp E &kp S &kp T>;
+            bindings = <&kp DOT &kp FSLH &kp G &kp R &kp A &kp D &kp L &kp E &kp W &kp SPACE &kp C &kp H &kp E &kp C &kp K &kp S &kp T &kp Y &kp L &kp E &kp LS(T) &kp E &kp S &kp T &kp ENTER>;
             label = "CHECKSTYLE_TEST";
         };
     };
